@@ -4,8 +4,8 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import movies from "../../Assets/Projects/show.jpeg";
+import yowl from "../../Assets/Projects/yowl.jpeg";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
@@ -22,7 +22,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={movies}
               isBlog={false}
               title="My_Rotten_Tomatoes"
               description="A film presentaion and review website using The Movie Database API and NextJs Frameworka film presentaion and review website using The Movie Database API and NextJs Framework."
@@ -62,7 +62,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={yowl}
               isBlog={false}
               title="YOWL"
               description="YOWL is a web application that will allow users to comment on all of the content found on the
